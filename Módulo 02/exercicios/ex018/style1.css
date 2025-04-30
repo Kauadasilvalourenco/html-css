@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Game of Squids';
+    src: url('fontes/Game\ Of\ Squids.otfotf') format('opentype'), url('fontes/Game\ Of\ Squids.ttf') format('truetype');
+    /* 
+        Tipos de format()
+        - Opentype (otf)
+        - Truetype (ttf)
+        - emdedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+h1{
+    font-family: 'Game of Squids', 'serif';
+}
+
+p{
+    font-family: 'Game of Squids', 'sans-serif';
+}

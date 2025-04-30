@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Seletores Personalizados
+    
+    # = ID
+
+    . = Class
+
+    : = Pseudo-Class
+
+    :: = Pseudo-Element
+
+    > = Children
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #6b0101c4;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(59, 51, 1);
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+a::after{
+    content: ' [Links]';
+    background-color: lightgray;
+}
+
+a::before{
+    content: '--> ';
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+h1{ /* Caixa do tipo Box-level */
+    background-color: lightblue;
+    height: 250px;
+    width: 200px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: darkred;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+a{ /* Caixa do tipo Inline-level */
+    border: 5px groove darkred;
+    padding: 2px;
+    margin: 5px;
+}
