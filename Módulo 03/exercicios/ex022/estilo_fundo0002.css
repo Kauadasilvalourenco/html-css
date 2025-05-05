@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+        /* background-image: url(imagens/pattern002.png); (Está inserindo uma imagem como plano de fundo do site) */
+
+        /* 
+            background-repeat: repeat-y; (Realiza a repetição da imagem no eixo das ordenadas; "Vertical") 
+        
+            background-repeat: repeat-x; (Realiza a repetição da imagem no eixo das abcissas; "Horizontal")
+
+            background-repeat: repeat; (Valor padrão da propriedade background-repet; Realiza a repetição da imagem no eixo x e y)
+
+            background-repeat: no-repeat; (Faz com que a imagem inserida como plano de fundo não seja repetida.)
+        */
+
+        /* background-size: 250px; (Configura o tamanho das imagens inseridas como plano de fundo) */
+
+    background-image: url(imagens/pattern002.png);
+    background-repeat: repeat-y;
+    background-size: 250px;
+}
