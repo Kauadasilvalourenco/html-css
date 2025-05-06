@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div.fundo{
+    height: 200px;
+    border: 2px solid #000000;
+    margin: 15px 0px 0px 0px;
+    border-radius: 20px;
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+div#q1{
+    background-position: left top;
+}
+
+div#q2{
+    background-position: top right;
+}
+
+div#q3{
+    background-position: left center;
+}
+
+div#q4{
+    background-position: left top;
+}
+
+div#q5{
+    background-image: center;
+}
