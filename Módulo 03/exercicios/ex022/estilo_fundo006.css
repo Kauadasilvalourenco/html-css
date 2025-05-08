@@ -4,16 +4,16 @@ body{
     height: 98vh;
     background-color: #000000;
     background-image: url(imagens/wallpaper002.jpg);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 main{
     background-color: #ffffff;
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     padding: 10px;
-    border-radius: 15px;
-    border: 1px solid #00008b;
+    border-radius: 20px;
 }
