@@ -42,12 +42,13 @@ header a:hover{
 }
 
 main{
-    max-width: 600px;
+    min-width: 280px;
 }
 
 section.normal{
     background-color: #ffffff;
     padding: 10px;
+    padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     margin: auto;
