@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Madimi+One&display=swap');
 
 
 @font-face {
@@ -11,139 +9,112 @@
 }
 
 @font-face {
-    font-family: 'Madimione';
+    font-family: 'MadimiOne';
     src: url('fontes/Madimi_One/MadimiOne-Regular.ttf') format('truetype');
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
+:root{
+    /* Fontes */
+    --fonte_cabecalho-rodape: 'MadimiOne', Arial, Helvetica, sans-serif, hand, monospace;
+    --fonte_conteudo: 'Itim', Arial, Helvetica, sans-serif, hand, monospace;
 }
 
-html, body{
+body{
     min-height: 100vh;
-    background-color: #a9a9a9
+    background-color: #a9a9a9;
 }
 
 header{
     background-color: #000000;
     color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    margin: auto;
+    padding: 10px;
     margin: -10px -10px 0px -10px;
-    font-family: 'Madimione', Arial, Helvetica, sans-serif, monospace;
+    text-align: center;
 }
 
 header h1{
+    font-family: var(--fonte_cabecalho-rodape);
+    font-size: 2.2em;
     font-variant: small-caps;
-    font-size: 2.5em;
 }
 
 header p{
+    font-family: var(--fonte_conteudo);
     font-size: 1.2em;
 }
 
-header a{
+header p a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 
-header a:hover{
+header p a:hover{
     text-decoration: underline;
     text-decoration-color: #8b0000;
 }
 
 main{
-    min-width: 280px;
+    font-family: var(--fonte_conteudo);
+    line-height: 30px;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 10vh 10px 10vh 10px;
+    margin: 0px -10px 0px -10px;
 }
 
 section p{
-    padding-bottom: 20px;
+    padding: 0px 0px 0px 30px;
 }
 
-section.normal{
-    background-color: #ffffff;
+section.imagem{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-shadow: 1px 2px 0px #000000;
+}
+
+section.imagem p{
+    background-color: #00000080;
     padding: 10px;
-    padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    margin: auto;
-    margin: 0px -10px 0px -10px;
-    font-family: 'Itim', Arial, Helvetica, sans-serif, monospace;
-    line-height: 35px;
+    min-width: 280px;
+    max-width: 320px;
+    border-radius: 20px;
 }
 
 section#imagem_flor{
-    background-color: #1f1f1f;
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    color: #ffffff;
-    padding: 10px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    margin: auto;
-    margin: 0px -10px 0px -10px;
-    font-family: 'Itim', Arial, Helvetica, sans-serif, monospace;
-    text-shadow: 1px 2px 0px #000000;
-    line-height: 35px;
-}
-
-section#imagem_flor p{
-    background-color: #0000005b;
-    width: 280px;
-    padding-left: 30px;
-    border-radius: 15px;
 }
 
 section#imagem_folhas{
-    background-color: #1f1f1f;
-    color: #ffffff;
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    padding: 10px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    margin: auto;
-    margin: 0px -10px 0px -10px;
-    font-family: 'Itim', Arial, Helvetica, sans-serif, monospace;
-    text-shadow: 1px 2px 0px #000000;
-    line-height: 35px;
-}
-
-section#imagem_folhas p{
-    background-color: #0000005b;
-    width: 280px;
-    padding-left: 30px;
-    border-radius: 15px;
-
+    background-attachment: fixed;
 }
 
 footer{
     background-color: #000000;
     color: #ffffff;
-    margin: auto;
-    margin: 20px -10px -20px -10px;
     padding: 10px;
+    margin: 20px -10px -10px -10px;
     text-align: center;
-    font-family: 'Madimione', Arial, Helvetica, sans-serif, monospace;
     font-size: 1.2em;
+    font-family: var(--fonte_cabecalho-rodape);
 }
 
-footer a{
+footer p a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 
-footer a:hover{
+footer p a:hover{
     text-decoration: underline;
     text-decoration-color: #8b0000;
 }
