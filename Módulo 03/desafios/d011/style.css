@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    position: relative;
+    height: 98vh;
+    background-color: darkgray;
+    background-image: url(imagens/espaço_sideral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    width: 500px;
+    background-image: url(imagens/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translate(-50%, -50%);
+}
